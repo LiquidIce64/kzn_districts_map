@@ -1,8 +1,8 @@
 import pandas as pd
-from cheat.convex_hull_builder import ConvexHullBuilder
+from convex_hull_builder import ConvexHullBuilder
 
 # Поменяйте путь на свой
-PATH_TO_SAVE = ""
+PATH_TO_SAVE = "districts.csv"
 
 points_df = pd.read_csv("points.csv")
 
